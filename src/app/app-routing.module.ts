@@ -9,7 +9,7 @@ const routes: Routes = [
   {path:'',redirectTo:'login',pathMatch:'full'},//when there is no path 
   {path:'login',component:LoginComponent},
   {path:'home',component:HomeComponent},
-  {path:'movie',component:MovieComponent},
+  {path:'movie/:type/:id',component:MovieComponent},
   {path:'**',component:LoginComponent}//when no path matches
 ];
 

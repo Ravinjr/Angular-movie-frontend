@@ -1,15 +1,15 @@
 <div class="login-container">
     <img class="film" src="assets/images/film.png" alt="">
-    <div class="logo">Rotten potatoes</div>
-    <div class="desc">Welcome to Rotten Potatoes, the ultimate hub for unconventional movie and TV reviews! Tired of the same old critic opinions? We bring you fresh, candid perspectives from real viewers who aren’t afraid to dish out the good, the bad, and the downright rotten. Whether it's a blockbuster hit or a hidden gem, our community-driven reviews are honest, unfiltered, and often hilarious.</div>
+    <div class="logo">View Vibes</div>
+    <div class="desc">Welcome toView Vibes, the ultimate hub for unconventional movie and TV reviews! Tired of the same old critic opinions? We bring you fresh, candid perspectives from real viewers who aren’t afraid to dish out the good, the bad, and the downright rotten. Whether it's a blockbuster hit or a hidden gem, our community-driven reviews are honest, unfiltered, and often hilarious.</div>
     <div class="login-form">
         <div class="form-group">
             <label for="userName">User name</label>
-            <input type="text" name="userName" class="form-control" [(ngmodel)]="username"/>
+            <input type="text" name="userName" class="form-control" [(ngModel)]="username"/>
         </div>
         <div class="form-group">
             <label for="password">Password</label>
-            <input type="text" name="password" class="form-control" [(ngmodel)]="password"/>
+            <input type="password" name="password" class="form-control" [(ngModel)]="password"/>
         </div>
         <div class="btn-container">
             <div class="error">{{ errorMessage }}</div>

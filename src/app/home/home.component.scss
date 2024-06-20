@@ -1,0 +1,104 @@
+.home-container{
+    display: flex;
+    .all-movies{
+        width: 75%;
+        min-height: calc(100vh - 80px);
+        border-right: 2px solid #FFA62F;
+        padding: 10px 20px 10px 20px;
+        font-family: "Poppins", sans-serif;
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            h4{
+                text-transform: uppercase;
+                font-weight: bold;
+                border-left: 5px solid #FFA62F;
+                padding: 10px;
+            }
+            .view-all{
+                color: #FFA62F;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+        .movies-thumbnail{
+            display: flex;
+            justify-content: space-between;
+
+           .movie{
+           width: 16.66%;
+            .cover{
+                img{
+                    border-radius: 5px;
+                }
+                // background-color: yellow;
+            }
+            .detail{
+                width: 180px;
+                .name{
+                    font-weight: bold;
+                    height: 50px;
+                    margin-top: 5px;
+                    cursor: pointer;
+                }
+            }
+           }
+
+        }
+
+        
+    }
+    .popular-movies{
+        width: 25%;
+        height: calc(100vh - 80px);
+        padding: 20px 40px;
+        font-family: "Poppins", sans-serif;
+        h4{
+            text-transform: uppercase;
+            font-weight: bold;
+            border-left: 5px solid #FFA62F;
+            padding: 10px;
+        }
+        .movies{
+            position: relative;
+            .movie{
+               margin-bottom: 20px;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               .name{
+                font-weight: bold;
+                cursor: pointer;
+               }
+            }
+            .view-all{
+                color: #FFA62F;
+                cursor: pointer;
+                margin-top: 30px;
+                position: absolute;
+                right: 5px;
+                font-weight: bold;
+                border: none;
+                background-color: white;
+               
+            }
+        }
+    }
+}
+
+.rating{
+    padding-right: 45px;
+    position: relative;
+    .rating-value{
+        position: absolute;
+        top: 20px;
+        right: 7px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
+.theatre-movies{
+    margin-top: 30px;
+}
